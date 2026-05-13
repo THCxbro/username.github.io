@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Порівняння iOS та Android</title>
+
+    <style>
+        body{
+            margin:0;
+            font-family: Arial, sans-serif;
+            background:#f4f4f4;
+            color:#222;
+            line-height:1.6;
+        }
+
+        header{
+            background:linear-gradient(90deg,#111,#444);
+            color:white;
+            padding:40px;
+            text-align:center;
+        }
+
+        nav{
+            background:#222;
+            padding:15px;
+            text-align:center;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin:0 15px;
+            font-weight:bold;
+        }
+
+        nav a:hover{
+            color:#00bfff;
+        }
+
+        .container{
+            width:90%;
+            max-width:1200px;
+            margin:auto;
+            padding:20px;
+        }
+
+        section{
+            background:white;
+            margin:20px 0;
+            padding:25px;
+            border-radius:12px;
+            box-shadow:0 0 10px rgba(0,0,0,0.1);
+        }
+
+        h2{
+            color:#0d6efd;
+        }
+
+        .comparison{
+            display:flex;
+            flex-wrap:wrap;
+            gap:20px;
+        }
+
+        .card{
+            flex:1;
+            min-width:300px;
+            background:#f9f9f9;
+            padding:20px;
+            border-radius:10px;
+            border:2px solid #ddd;
+        }
+
+        .ios{
+            border-color:#555;
+        }
+
+        .android{
+            border-color:#28a745;
+        }
+
+        img{
+            width:100%;
+            border-radius:10px;
+            margin-top:10px;
+        }
+
+        table{
+            width:100%;
+            border-collapse:collapse;
+            margin-top:20px;
+        }
+
+        table, th, td{
+            border:1px solid #ccc;
+        }
+
+        th, td{
+            padding:12px;
+            text-align:center;
+        }
+
+        th{
+            background:#0d6efd;
+            color:white;
+        }
+
+        footer{
+            background:#222;
+            color:white;
+            text-align:center;
+            padding:20px;
+            margin-top:30px;
+        }
+
+        @media(max-width:768px){
+            .comparison{
+                flex-direction:column;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Порівняння iOS та Android</h1>
+    <p>Детальний огляд двох найпопулярніших мобільних операційних систем</p>
+</header>
+
+<nav>
+    <a href="#about">Про системи</a>
+    <a href="#comparison">Порівняння</a>
+    <a href="#advantages">Переваги</a>
+    <a href="#conclusion">Висновок</a>
+</nav>
+
+<div class="container">
+
+    <section id="about">
+        <h2>Що таке iOS та Android?</h2>
+
+        <p>
+            iOS та Android — це дві найвідоміші операційні системи для смартфонів у світі.
+            Вони використовуються мільярдами людей і постійно розвиваються.
+        </p>
+
+        <p>
+            iOS була створена компанією Apple та використовується тільки на пристроях iPhone.
+            Вона відома стабільністю, високою швидкістю роботи та гарною оптимізацією.
+            Apple контролює як програмне забезпечення, так і самі пристрої, тому система працює дуже плавно.
+        </p>
+
+        <p>
+            Android розроблений компанією Google. Цю систему використовують багато виробників:
+            Samsung, Xiaomi, Motorola, Huawei та інші.
+            Android відомий відкритістю, великою кількістю налаштувань та різноманітністю смартфонів.
+        </p>
+
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Android_and_iOS.svg/1200px-Android_and_iOS.svg.png">
+    </section>
+
+    <section id="comparison">
+        <h2>Основне порівняння</h2>
+
+        <div class="comparison">
+
+            <div class="card ios">
+                <h3>iOS</h3>
+
+                <p>
+                    iOS має простий та зрозумілий інтерфейс.
+                    Багато користувачів обирають цю систему через її стабільність та безпеку.
+                </p>
+
+                <p>
+                    Смартфони Apple отримують оновлення протягом багатьох років,
+                    тому навіть старі iPhone можуть працювати на нових версіях системи.
+                </p>
+
+                <p>
+                    App Store ретельно перевіряє програми,
+                    через що ризик вірусів або шкідливих додатків значно менший.
+                </p>
+
+                <p>
+                    Недоліком є висока ціна пристроїв та обмежені можливості кастомізації.
+                </p>
+
+                <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9">
+            </div>
+
+            <div class="card android">
+                <h3>Android</h3>
+
+                <p>
+                    Android дозволяє більше налаштовувати систему під себе.
+                    Користувач може змінювати теми, іконки, віджети та навіть запускати сторонні програми.
+                </p>
+
+                <p>
+                    На Android існує величезний вибір смартфонів —
+                    від бюджетних моделей до дорогих флагманів.
+                </p>
+
+                <p>
+                    Google Play має дуже багато додатків,
+                    а сама система підтримує різноманітні функції та експерименти виробників.
+                </p>
+
+                <p>
+                    Однак деякі дешеві Android-смартфони можуть працювати повільніше,
+                    а оновлення системи інколи приходять із затримками.
+                </p>
+
+                <img src="https://images.unsplash.com/photo-1598327105666-5b89351aff97">
+            </div>
+
+        </div>
+
+        <table>
+            <tr>
+                <th>Критерій</th>
+                <th>iOS</th>
+                <th>Android</th>
+            </tr>
+
+            <tr>
+                <td>Стабільність</td>
+                <td>Висока</td>
+                <td>Залежить від пристрою</td>
+            </tr>
+
+            <tr>
+                <td>Кастомізація</td>
+                <td>Обмежена</td>
+                <td>Дуже широка</td>
+            </tr>
+
+            <tr>
+                <td>Безпека</td>
+                <td>Дуже висока</td>
+                <td>Висока</td>
+            </tr>
+
+            <tr>
+                <td>Ціна смартфонів</td>
+                <td>Висока</td>
+                <td>Різна</td>
+            </tr>
+
+            <tr>
+                <td>Оновлення</td>
+                <td>Швидкі та довгі</td>
+                <td>Залежить від бренду</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="advantages">
+        <h2>Переваги та недоліки</h2>
+
+        <h3>Переваги iOS</h3>
+        <ul>
+            <li>Стабільна робота системи</li>
+            <li>Тривала підтримка оновлень</li>
+            <li>Високий рівень безпеки</li>
+            <li>Якісні додатки</li>
+        </ul>
+
+        <h3>Недоліки iOS</h3>
+        <ul>
+            <li>Висока вартість iPhone</li>
+            <li>Менше свободи налаштувань</li>
+            <li>Закрита система</li>
+        </ul>
+
+        <h3>Переваги Android</h3>
+        <ul>
+            <li>Великий вибір смартфонів</li>
+            <li>Гнучкі налаштування</li>
+            <li>Доступні бюджетні моделі</li>
+            <li>Можливість встановлювати сторонні програми</li>
+        </ul>
+
+        <h3>Недоліки Android</h3>
+        <ul>
+            <li>Не всі смартфони отримують оновлення</li>
+            <li>На дешевих моделях можуть бути лаги</li>
+            <li>Більший ризик вірусів</li>
+        </ul>
+    </section>
+
+    <section id="conclusion">
+        <h2>Висновок</h2>
+
+        <p>
+            Обидві операційні системи мають свої сильні сторони.
+            iOS більше підходить людям, які цінують стабільність,
+            безпеку та простоту використання.
+        </p>
+
+        <p>
+            Android стане хорошим вибором для тих,
+            хто хоче більше свободи налаштувань,
+            широкий вибір пристроїв та доступні ціни.
+        </p>
+
+        <p>
+            Неможливо точно сказати, яка система краща,
+            адже все залежить від потреб користувача.
+            Саме тому суперечки між прихильниками iOS та Android тривають уже багато років.
+        </p>
+    </section>
+
+</div>
+
+<footer>
+    <p>Сайт створений для навчального проєкту | 2026</p>
+</footer>
+
+</body>
+</html>
